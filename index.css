@@ -1,0 +1,314 @@
+
+.nav .nav-link {
+    color: black !important; 
+    margin-right: 20px;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.nav .nav-item:first-child .nav-link {
+    color: #00754a !important;
+    text-decoration: underline !important;
+}
+
+.nav .nav-link:hover {
+    color: #00754a !important; /* Green color on hover */
+}
+
+.search-box {
+    position: relative;
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    border: none;
+}
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.container-bg {
+    background: #0a3622;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80px; /* Adjust height as needed */
+}
+
+.custom-button {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.starbucks-text {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 60px;
+    color: white;
+}
+
+.carousel-inner{
+    margin-top: 100px;
+    height: 220px;
+    width: 300px;
+    background: #00754a;
+    border-radius: 10px;
+}
+.carousel-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.base-image {
+    width: 40%; /* Base image on the left */
+    height: auto;
+    position: absolute;
+    left: 0;
+    border-radius: 10px;
+}
+
+.overlay-image {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100px; /* Adjust size */
+    height: auto;
+    z-index: 2; /* Ensures it appears on top */
+}    
+
+.carousel-caption button{
+    height: 49px;
+    width: 200px;
+    background:#0a3622;
+    border: 1px solid;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    align-self: flex-end;
+    margin-left: 750px;
+
+}
+.carousel-caption {
+    white-space: normal !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 70%; /* Adjust width to allow wrapping */
+}
+
+.category img {
+
+    width: 120px;  /* Adjust width */
+    height: 120px; /* Adjust height */
+    object-fit: cover; /* Ensures the image is cropped properly */
+}
+.container-main{
+    height: 316px;
+    width: 100%;
+    background: #edebe9;
+
+}
+
+.view{
+    margin-right: 80px;
+    margin-top: 2px;
+    text-decoration: none;
+    color: #00754a;
+    font-size: 12px;
+    font-weight: bold;
+}
+.h2{
+    color: #0a3622;
+    margin-left: 100px;
+    margin-top: 15px;
+    
+}
+.img3 {
+    width: 57px;
+    height: 70px;
+    position: absolute;
+    margin-top: 10px;
+    right: 0;
+}
+
+
+ .box{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 120px;
+    margin-top: 29px;
+    
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    position: relative;
+
+    
+}
+.img4{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    
+}
+.img5{
+    width: 15px;
+    height: 15px;
+    margin-left: auto;
+}
+
+.javachip{
+    margin-left:10px;
+}
+
+.size {
+    font-size: 10px;
+    color: grey;
+}
+.txt{
+    font-size: 18px;
+    
+}
+.rate{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.add-button {
+    height: 30px;
+    width: 100px;
+    background: #00754a;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    /* transition: 0.3s; */
+    bottom: 20px;
+    position: absolute;
+    margin-left: 180px;
+}
+
+.add-button:hover {
+    background: #005a36;
+}
+.container-main2{
+    height: 450px;
+    width: 100%;
+    background: #edebe9;
+
+}
+.image-container {
+    position: relative;
+    width: 1269px; /* Set your desired width */
+    height: 372px; /* Set your desired height */
+    border-radius: 25%;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    
+}
+.image-text {
+    position: absolute;
+    /* Change these values to adjust text position */
+    top: 45%;  /* Moves text down (Use 'bottom' instead if needed) */
+    left: 0%; /* Moves text to the right (Use 'right' instead if needed) */
+    
+    
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%; /* Adjust text box width */
+    text-align: left; /* Change to center or right if needed */
+
+    /* Align text inside box */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Change to center or flex-end for different alignment */
+    justify-content: center;
+}
+
+/* Text Resizing Without @media */
+.image-text h1 {
+    font-size: clamp(18px, 4vw, 28px); /* Dynamic font size */
+    color: white;
+    margin-bottom: 12px;
+    margin-left: 200x;
+}
+
+.image-text p {
+    font-size: clamp(14px, 2vw, 18px); /* Auto-adjusting text */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+.image-text .btn {
+    background-color: white;
+    color:black;
+    padding: 8px 60px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.image-text .btn:hover {
+    background-color: #0c4c2d;
+}
+
+
+.footer {
+    margin-top: 180px;
+    background-color: #1e3932;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.footer .logo img {
+    margin-left: 100px !important;
+    padding-left: 0 !important;
+    margin-top: 150px;
+    display: block;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color:grey;
+    text-decoration: none;
+}
+.social-icons i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+.list-inline a ,p{
+    font-size: 12px;
+}
+a{
+    font-size: 15px;
+}

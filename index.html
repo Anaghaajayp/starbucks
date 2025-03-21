@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/19efc7f275.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <!--navbar-->
+    <div class="container-fluid ">
+    <header class="container-nav">
+        <div class="row" h-25>
+            <div class="col-xl-2 container-nav">
+                <nav class="navbar navbar-light bg-white justify-content-center">
+                    <a class="navbar-brand" href="#">
+                      <img src="logo (1).png" width="40" height="40" alt="">
+                    </a>
+                  </nav>
+            </div>
+            <div class="col-xl-6">
+                <ul class="nav margin-left:1rem pt-2 text-black">
+                    <li class="nav-item fs-5"><span>
+                      <a class="nav-link active text-sucess" href="#" onmouseover="this.style.color='green'" onmouseout="this.style.color='black'">Home</a>
+                      </span>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Gift</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Oder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pay</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Store</a>
+                      </li>
+                    
+                  </ul>
+            </div>
+            <!--serch box-->
+            <div class="col-xl-3">
+                <div class="search-box pt-2" >
+                    <img src="search.svg" width: 16px;
+                    height: 16px; alt="Search">
+                    <input class="pt-2 " width: 100px; type="text" placeholder="Looking for something specific?">
+                    
+                </div>
+            </div>
+            <div class="col-xl-1">
+                <img class=" pt-4" src="account_thin.svg" width: 30px;
+                height: 30px; alt=""> 
+            </div>
+        </div>
+    </header>
+    </div>
+     <!--starbucks-->
+    <div class="container-bg">
+        <div class="container-fluid">
+            <h5 class="starbucks-text">Starbucks</h5>
+            <div class="d-flex justify-content-end">
+                <button class="custom-button px-4 py-2">Know More</button>
+            </div>
+            
+        </div>
+    </div>
+    <!--slide1-->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 base-img" src="Refreshers_dashboard.png" alt="First slide">
+                <img class="overlay-image" src="Refreshers_dashboard_03_1_10aa41bbca.png" alt="Overlay Image">
+                <div class="carousel-caption" style="color: black; text-align: left; left: 10%; right: auto; top:10px;">
+                    <p style="font-size: 14px;">All New</p>
+                
+                    <p style="font-size: 20px;">Starbucks Refreshers</p>
+                    
+                    <p class="text-break" style="font-size: 14px;">Beat the heat with your bestie,Refreshers now available in Lychee Raspberry and kiwi Calamansi flavours.</p>
+                    <button class="pillar-button" onclick="askLocation()">Order Now</button>
+                  </div> 
+                  
+              </div>
+              <!--slide2-->
+              <div class="carousel-item" style="background-color: #00754a;">
+                <img class="overlay-image" src="285_x_595_App_removebg_preview_2_c4bc942184.png" alt="Second slide">
+                <div class="carousel-caption" style="color:white; text-align: left; left: 10%; right: auto; top:10px;">
+                    <p style="font-size: 14px;">Starbucks</p>
+                
+                    <p style="font-size: 20px;">Beverage Subscription</p>
+                    
+                    <p class="text-break" style="font-size: 14px;">Starbucks Subscription is Back! Sip Your Favorites for Less. Tap for Details. T&C Apply.</p>
+                    <button class="pillar-button" onclick="askLocation()"style="background: white; color: black;">Know More</button>
+                  </div> 
+              </div>
+              
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        
+           
+      </div>
+      <!--items-->  
+
+      <div class="container">
+        <div class="row">
+            <div class="col-xl-12 ">
+                <h1 class="text-xl-start pt-5 fs-1" style="font-size: 28px; color: #0a3622;">Handcrafted Curations</h1>
+            </div>
+        </div>
+        </div>
+
+        <div class="container">
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-3 col-sm-4 col-md-2 category text-center">
+                <img src="bestseller.jpg" class="img-fluid rounded-circle" alt="Bestseller">
+                <p class="me-5">Bestseller</p>
+            </div>
+            <div class="col-3 col-sm-3 col-md-2 category text-center">
+                <img src="drinks.jpg" class="img-fluid rounded-circle" alt="Drinks">
+                <p>  Drinks</p>
+            </div>
+            <div class="col-3 col-sm-3 col-md-2 category text-center">
+                <img src="food.jpg" class="img-fluid rounded-circle" alt="Food">
+                <p>  Food</p>
+            </div>
+            <div class="col-3 col-sm-3 col-md-2  category text-center">
+                <img src="merchandise.jpg" class="img-fluid rounded-circle" alt="Merchandise">
+                <p>Merchandise</p>
+            </div>
+            <div class="col-3 col-sm-3 col-md-2  category text-center">
+                <img src="CoffeeAtHome.jpg" class="img-fluid rounded-circle" alt="Coffee At Home">
+                <p>Coffee At Home</p>
+            </div>
+            <div class="col-3 col-sm-3 col-md-2 category text-center">
+                <img src="readytoeat.jpg" class="img-fluid rounded-circle" alt="Ready to Eat">
+                <p>Ready to Eat</p>
+            </div>
+        </div>
+      </div>
+      
+    <div class="container-fluid container-main mt-5 position-relative">
+      <img class="mt-5 img3 Order-1" src="greyleafright.svg" alt="leaf">
+      <div class="d-flex justify-content-between align-items-center">
+          <h2 class="text-nowrap text-start h2" style="font-size: 25px; color: #0a3622;">Barista Recommends</h2>
+          <a class="pe-5 view" href="#">View Menu</a>
+      </div>
+
+      <div class=" box">
+        <div class="box2">
+        <img class="img4" src="javachip.webp" alt="javachip">
+        <h5 class="rate">₹420.00</h5>
+        </div>
+       
+        <div class="javachip">
+        <img class="img5" src="veg.svg" alt="veg">
+        <h2 class="txt">Java Chip Frappuccino</h2>
+        <p class="size">TALL (345 ml) • 392 kcal</p>
+         </div>
+         <button class="add-button" onclick="askLocation()">Add Item</button>
+        </div>
+        
+  </div>
+
+  <div class="container-fluid container-main2 mt-5 position-relative">
+    
+      <div class="d-flex flex-wrap justify-content-between align-items-center">
+          <h2 class="text-nowrap text-start h2" style="font-size: 25px; color: #0a3622;">Learn more about the world of coffee!</h2>
+          <a class="pe-5 view" href="#">Discover More</a>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="image-container">
+            <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/ICW_Live_Event_Day5_41f11ca3d2.jpg" alt="Sample Image" class="img-fluid opacity-50">
+            <div class="image-text">
+              <h1 >Art & Science Of Coffee Brewing</h1>
+                        <p >Master the perfect brew with Starbucks! Learn the art and science of coffee brewing.</p>
+                        <button class="btn">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+        <div class="row text-start">
+            <div class="col-12 col-md-2 col-xl-2 d-flex align-items-start ps-0 logo">
+              <img  src="logo (1).png" width="60" alt="Starbucks Logo">
+              </div>
+              <div class="col-12 col-md-2 col-xl-2 ">
+                <h5 style=" margin-top: 150px;">About Us</h5>
+                <ul class="list-unstyled">
+                  <br>
+                    <li><a href="#">Our Heritage</a></li><br>
+                    <li><a href="#">Coffeehouse</a></li><br>
+
+                    <li><a href="#">Our Company</a></li><br>
+                </ul>
+
+              </div>
+              <div class="col-12 col-md-2 col-xl-2">
+                <h5 style=" margin-top: 150px;">Responsibility</h5><br>
+                <ul class="list-unstyled">
+                    <li><a href="#">Diversity</a></li><br>
+                    <li><a href="#">Community</a></li><br>
+                    <li><a href="#">Ethical Sourcing</a></li><br>
+                    <li><a href="#">Environmental Stewardship</a></li><br>
+                    <li><a href="#">Learn More</a></li><br>
+                </ul>
+            </div>
+            <div class="col-12 col-md-2 col-xl-2">
+              <h5 style=" margin-top: 150px;">Quick Links</h5><br>
+              <ul class="list-unstyled">
+                  <li><a href="#">Privacy Policy</a></li><br>
+                  <li><a href="#">FAQs</a></li><br>
+                  <li><a href="#">Customer Service</a></li><br>
+                  <li><a href="#">Delivery</a></li><br>
+                  <li><a href="#">loyalty program Terms and Conditions</a></li><br>
+                  <li><a href="#">Special Discount 25% Off Offer</a></li><br>
+                  <li><a href="#">Starbucks India Mobile App Ters of Use</a></li><br>
+              </ul>
+          </div>
+          <div class="col-12 col-md-2 col-xl-2">
+            <h5 style=" margin-top: 150px;">SOCIAL MEDIA</h5>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+        <div class="col-12 col-md-2 col-xl-2">
+          <a href="#"><img src="appstoreiOS.png" width="194" alt="App Store" style=" margin-top: 150px;"></a><br><br>
+          <a href="#"><img src="appstoreAndroid.png" width="194" alt="Google Play"></a>
+      </div>
+      </div>
+
+         </div>
+         <hr class="mt-4" style="border-color: rgba(255, 255, 255, 0.2);">
+         <div class="row">
+          <div class="col-md-6">
+              <ul class="list-inline" style=" margin-left: 100px;" >
+                  <li class="list-inline-item"><a href="#">Web Accessibility</a></li>
+                  <li class="list-inline-item"><a href="#">Privacy Statement</a></li>
+                  <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+                  <li class="list-inline-item"><a href="#">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="col-md-6 text-md-end">
+              <p class="mb-0" style=" margin-left:300px;" >© 2025 Starbucks Coffee Company. All rights reserved.</p>
+          </div>
+      </div>  
+     </div>
+  </footer>         
+
+  <!-- <script>
+    function askLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    alert("Your location:\nLatitude: " + position.coords.latitude + "\nLongitude: " + position.coords.longitude);
+                },
+                () => {
+                    alert("Location access denied or unavailable.");
+                }
+            );
+        } else {
+            alert("Geolocation is not supported by your browser.");
+        }
+    }
+</script> -->
+
+  
+
+ 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+</html>
